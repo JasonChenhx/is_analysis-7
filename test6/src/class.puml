@@ -15,14 +15,21 @@ class teachers{
 }
 class students{
     <b>student_id</b> （学号）
-    class （班级）
+    class_id （班级）
     result_sum（成绩汇总）
     web_sum （网站正确与否汇总）
     learn_term（学习学期）
     learn_subject（学习学科）
 }
+class classes{
+    <b>class_id</b> （班级编号）
+    className （班级名称）
+    students（学生集合）
+    
+}
 users <|- students
 users <|-- teachers
+classes "1" -- "n" students
 class term{
     <b>term_id</b> （学期号）
     term_date（学期日期）
@@ -32,6 +39,7 @@ class subject{
     subject_name（学科名称）
 }
 class grades {
+	<b>grades_id</b> （成绩编号）
     <b>student_id</b> （学号）
     <b>test_id</b> （实验编号）
     eachScore（每项得分）
@@ -43,6 +51,7 @@ class grades {
 class tests {
     <b>test_id</b> （实验编号）
     title (实验名称)
+    term_id （学期编号）
 }
 students "n" -- "n"term
 teachers "n" -- "n" term
