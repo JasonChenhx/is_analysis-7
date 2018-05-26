@@ -13,5 +13,5 @@
 - 系统自动计算每个学生的所有实验的平均分。
 
 ## 1. 系统总体结构
-![flow1](./construction.png)
+![flow1](./images/construction.png)
 界面设计参见：https://zwdbox.github.io/is_analysis/test6/ui/index.html
