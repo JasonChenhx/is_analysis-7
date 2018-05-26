@@ -12,6 +12,12 @@
 - 实验成绩按数字分数计算，每项实验的满分为100分，最低为0分。
 - 系统自动计算每个学生的所有实验的平均分。
 
-## 1. 系统总体结构
+## 2. 系统总体结构
 ![flow1](./images/construction.png)
 界面设计参见：https://zwdbox.github.io/is_analysis/test6/ui/index.html
+
+## 3. 用例图设计 [源码](src/usecase.puml)
+![](usecase.png)
+
+## 4. 类图设计 [源码](src/class.puml)
+![](class.png)
