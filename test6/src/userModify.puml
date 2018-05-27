@@ -1,0 +1,8 @@
+@startuml
+title 基于GitHub的实验管理平台--用户修改信息的顺序图
+actor users
+users-->Students
+alt 如果users是老师
+	users-->teacher
+end
+@enduml

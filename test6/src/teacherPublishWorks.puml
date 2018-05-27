@@ -1,0 +1,10 @@
+@startuml
+title 基于GitHub的实验管理平台--老师发布作业链接的顺序图
+actor users
+users-->Term:操作系统需要先选择学期
+Term-->Subject:选择学期之后也需要选择课程
+Subject -> Teacher
+Teacher-->test 
+teat-->Teacher:返回以发布的作业信息
+
+@enduml

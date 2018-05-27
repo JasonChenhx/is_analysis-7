@@ -1,0 +1,6 @@
+@startuml
+title 基于GitHub的实验管理平台--选择课程的顺序图
+actor Users
+Users-->Term:操作系统需要先选择学期
+Term-->Subject:选择学期之后也需要选择课程
+@enduml

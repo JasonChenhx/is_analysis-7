@@ -12,6 +12,7 @@ class teachers{
     department （老师所属部门）
     teach_term（授课学期）
     teach_subject（教授课程）
+    test_sum （已发布的作业Id集合）
 }
 class students{
     <b>student_id</b> （学号）
@@ -43,7 +44,7 @@ class grades {
     <b>student_id</b> （学号）
     <b>test_id</b> （实验编号）
     eachScore（每项得分）
-    result_sum （总分数）
+    result_specific （总分数）
     memo （评价）
     update_date （评改日期）
 }
@@ -52,6 +53,7 @@ class tests {
     <b>test_id</b> （实验编号）
     title (实验名称)
     term_id （学期编号）
+    link （实验github链接）
 }
 students "n" -- "n"term
 teachers "n" -- "n" term
