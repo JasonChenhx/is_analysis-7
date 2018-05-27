@@ -43,6 +43,7 @@
     |DEPARTMENT|VARCHAR2(400 BYTE)| |否| | | 老师属于的部门|
     |TEACH_TERM|VARCHAR2(400 BYTE)| |是| | | 老师授课的学期|
     |TEACH_SUBJECT|VARCHAR2(400 BYTE)| |是| | | 老师教授的课程|
+    |TEST_SUM|VARCHAR2(400 BYTE)| |是| | | 老师已发布的作业Id集合|
 
 - ### STUDENTS表（学生表）
 
@@ -95,6 +96,8 @@
     |:-------:|:-------------:|:------:|:----:|:---:|:----:|:----------|
     |TEST_ID|NUMBER(6,0)|主键|否| | | 实验编号|
     |TITLE|VARCHAR2(100 BYTE)| |否| | | 实验名称|
+    |term|VARCHAR2(100 BYTE)| |否| | | 学期|
+    |link|VARCHAR2(100 BYTE)| |否| | | 实验的github链接|
 
 ## 6. 用例及界面详细设计
 
