@@ -14,7 +14,7 @@
 
 ## 2. 系统总体结构
 ![flow1](./images/construction.png)
-界面设计参见：https://zwdbox.github.io/is_analysis/test6/ui/index.html
+界面设计参见：https://acs121.github.io/is_analysis/test6/index.html
 
 ## 3. 用例图设计 [源码](src/usecase.puml)
 ![](./images/usecase.png)
